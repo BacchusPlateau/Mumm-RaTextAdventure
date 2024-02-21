@@ -59,7 +59,7 @@ public class MapManager {
         ArrayList<String> lines = new ArrayList<>();
 
         try {
-            Scanner fileIn = new Scanner(new File("files/" + fileName));
+            Scanner fileIn = new Scanner(new File(fileName));
             while (fileIn.hasNext())
             {
                 String lineIn = fileIn.nextLine();

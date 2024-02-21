@@ -17,7 +17,7 @@ public class Game {
         score = 0;
 
         map = new String[ROWS][COLS];
-        ArrayList<String> lines = MapManager.loadFile("files/map.txt");
+        ArrayList<String> lines = MapManager.loadFile("./resources/map.txt");
         MapManager.loadMap(lines, map);
         setInitialLocation();
 
